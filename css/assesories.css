@@ -1,0 +1,213 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  
+
+}
+
+.logo {
+font-weight: bold;
+font-size: 3.5em;
+padding-top: 20px;
+}
+
+
+.logo {
+  color: #85A3A4;
+  margin: 10px;
+  padding-bottom: 25px;
+  text-shadow: 1px 1px 2px white;
+}
+
+body {
+	font-family: 'Fruktur'
+}
+
+body {
+background-image: url(../img/heroimg6.jpg);
+background-repeat: no-repeat;
+max-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin:0px;
+  padding: 0px;
+}
+
+
+
+.nav {
+  
+  margin: 0;
+  padding: 5;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+
+.nav li {
+  display: inline-block;
+ 
+  font-size: 25px;
+  color: white;
+  padding: 10px 5px;
+  margin: 0;
+  text-shadow: 1px 1px 2px white;
+
+}
+  .nav a {
+color: #85A3A4;
+text-decoration: none;
+text-align: center;
+
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.nav .active {
+  color: white;
+}
+/*................. PRODUCTS  ..................*/
+.extras {
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  padding-bottom: 80px;
+
+}
+
+#item ,h3, h4{
+color: white;
+
+}
+
+#item {
+  max-width: 80%;
+
+  text-align: center;
+}
+
+#item img {
+height: 500px;
+width: 700px;
+float: left;
+padding: 10px;
+
+border-radius: 125px;
+opacity: .75;
+}
+#item h3 {
+  font-size: 2.5em;
+}
+
+#item h4 {
+font-size: 1.5em;
+}
+
+#item img:hover {
+  opacity: 1;
+}
+#item div {
+  display: table;
+  margin-bottom: 20px;
+  }
+
+ .brush {
+
+  
+  
+  top: 350px;
+ 
+}
+
+
+
+.cleaner {
+ 
+  
+  top: 1000px;
+
+}
+
+.cap {
+  
+  
+  top: 1550px;
+
+}
+ .edit {
+  color: #476FB9  ;
+  font-size: 1.5em;
+}
+
+.brush, .cleaner, .cap {
+  position: absolute;
+  left: 800px;
+   color: white;
+  text-align: right;
+  max-width: 500px;
+  font-size: 1.5em;
+  background-color: #85A3A4;
+  border-radius: 50px;
+  padding: 20px;
+  
+}
+#item img:hover {
+  opacity: 1;
+  background-color: #85A3A4;
+
+  transition: ease .5s background-color;
+}
+/*................. PRODUCTS  ..................*/
+/*................. FOOTER  ..................*/
+
+footer {
+  width: 100%;
+  height: 75px;
+  clear: both;
+  background-color: #85A3A4;
+  font-family: 'Lalezar', cursive;
+
+  
+}
+
+footer ul{
+  text-align: center;
+
+}
+footer li {
+  font-size: 2em;
+  display: inline-block;
+  padding: 5px;
+  
+  color: black;
+}
+footer a li:hover {
+  color: white;
+}
+
+
+footer h6 p {
+  color: black;
+  font-size: 25px;
+  font-family: 'Lalezar', cursive;
+
+}
+footer a {
+  text-decoration: none;
+  color: #476FB9;
+}
+
+footer li p {
+  font-size: .5em;
+  max-width: 500px;
+ 
+}
+/*................. FOOTER  ..................*/

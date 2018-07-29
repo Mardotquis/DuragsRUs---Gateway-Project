@@ -1,0 +1,245 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+ }
+
+
+
+
+
+
+
+
+ .nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  text-align: center;
+
+}
+
+.nav li {
+  display: inline-block;
+  float: top;
+  font-size: 25px;
+  color: red;
+  padding: 20px 30px;
+  margin: 0;
+  text-shadow: 1px 1px 2px white;
+  
+
+}
+
+.nav a {
+color: #85A3A4;
+text-decoration: none;
+text-align: center;
+
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.nav .active {
+  color: white;
+}
+/*................. HERO  ..................*/
+#hero-container {
+  text-align: center;
+  z-index: 1;
+  margin: auto;
+  padding: 0;
+
+  
+}
+
+header {
+  background-image: url('../img/heroimg2.jpg');
+  max-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0px;
+  padding: 0px;
+}
+
+header p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+font-weight: bold;
+font-size: 80px;
+padding-top: 20px;
+}
+
+.best {
+padding-top: 20px;
+}
+
+.logo, .best , .featured1 {
+  color: #85A3A4;
+  margin: 10px;
+  padding-bottom: 25px;
+  text-shadow: 1px 1px 2px white;
+}
+
+
+
+.btn-view {
+  background-color: #85A3A4;
+  
+  
+  color: white;
+  
+}
+
+.btn-about {
+  background-color: white; 
+  color: #85A3A4;
+
+}
+
+.btn-view, .btn-about {
+  display: inline-block;
+  margin: 170px 1em;
+  padding: 20px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  width: 300px;
+}
+
+.btn-view:hover {
+  background-color: white;
+  color: #85A3A4;
+  transition: all 0.25s ease;
+}
+
+.btn-about:hover {
+  background-color: #85A3A4;
+  color: white;
+  transition: all 0.25s ease;
+}
+
+#hero-container {
+  font-family: 'Fruktur';
+}
+
+
+/*................. HERO  ..................*/
+
+
+/*................. FEATURED ITEMS  ..................*/
+#featured {
+
+  max-width: 100%;
+  margin: auto;
+  padding-top: 0;
+
+}
+body {
+  background: linear-gradient(#FDF5E6 20%
+, white);
+}
+#featured h1 {
+font-size: 50px;
+padding-left: 20px;
+padding-bottom: 10px;
+
+}
+
+
+#featured div {
+padding: 5px;
+
+float: left;
+text-align: center;
+width: 50%;
+box-sizing: border-box;
+
+text-align: center;
+max-width: 50%;
+max-height: 80%;
+display: table;
+margin: auto;
+
+
+}
+
+ #featured div img {
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 125px;
+}
+
+#featured h1, h3, h4 {
+  color: #85A3A4;
+  font-family: 'Fruktur';
+}
+
+
+#featured h3 {
+  font-size: 2em;
+}
+#featured h4 {
+  font-size: 1.5em;
+}
+/*................. FEATURED ITEMS  ..................*/
+
+/*................. FOOTER  ..................*/
+
+footer {
+  width: 100%;
+  height: 75px;
+  clear: both;
+  background-color: #85A3A4;
+  font-family: 'Lalezar', cursive;
+
+ 
+}
+
+footer ul{
+  text-align: center;
+
+}
+footer li {
+  font-size: 2em;
+  display: inline-block;
+  padding: 5px;
+  
+  color: black;
+}
+footer a li:hover {
+  color: white;
+}
+
+
+footer h6 p {
+  color: black;
+  font-size: 25px;
+  font-family: 'Lalezar', cursive;
+
+}
+footer a {
+  text-decoration: none;
+  color: #476FB9;
+}
+
+footer li p {
+  font-size: .5em;
+  max-width: 500px;
+ 
+}
+/*................. FOOTER  ..................*/
+
+
+
+
+
+
